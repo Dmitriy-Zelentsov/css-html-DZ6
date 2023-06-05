@@ -8,7 +8,21 @@
 }
 
 .header {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     margin-top:40px;
+}
+
+.header_link {
+    width: 533px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
 i {
